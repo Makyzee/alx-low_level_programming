@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <studio.h>
 
 /**
  * main -prints all possible different combinations of three digits
@@ -23,7 +23,6 @@ int main(void)
 					{
 						putchar(',');
 						putchar(' ');
-
 					}
 				}
 			}
