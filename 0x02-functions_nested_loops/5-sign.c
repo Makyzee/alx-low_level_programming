@@ -3,7 +3,7 @@
  * print_sign - checks for positive and negative integers
  * @n: integer to be checked
  *
- * Return: 1 or 0 or _1, if number is greater than zero, zero or less than zero
+ * Return: 1 or 0 or -1, if number is greater than zero, zero or less than zero
  */
 int print_sign(int n)
 {
@@ -19,7 +19,7 @@ int print_sign(int n)
 	}
 	else if (n < 0)
 	{
-		_putchar('_');
+		_putchar('-');
 	}
 	return (-1);
 }
