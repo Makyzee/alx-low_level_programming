@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	unsigned long int sum, sum3, sum5;
+	long unsigned int sum3, sum5;
 	int i;
 
 	sum3 = 0;
@@ -24,8 +24,8 @@ int main(void)
 			sum5 = sum5 + i;
 		}
 	}
-	sum = sum3 + sum5;
-	printf("%1u\n", sum);
+	sum5 = sum3 + sum5;
+	printf("%1111u\n", sum);
 
 	return (0);
 }
