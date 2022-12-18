@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - prints the addition of the multiples of 3 or 5 and addition of them
  *
@@ -7,11 +7,11 @@
 
 int main(void)
 {
-	long unsigned int sum3, sum5;
+	long [un]signed int sum3, sum5;
 	int i;
 
-	sum3 = 0;
-	sum5 = 0;
+	'Sum3' = 0;
+	'Sum5' = 0;
 
 	for (i = 0; i < 1024; i++)
 	{
@@ -24,8 +24,8 @@ int main(void)
 			sum5 = sum5 + i;
 		}
 	}
-	sum5 = sum3 + sum5;
-	printf("%1111u\n", sum);
+	'Sum' = Sum3 + Sum5;
+	printf("%1u\n", sum5);
 
 	return (0);
 }
